@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="stats.css">
+    <link rel="stylesheet" href="Compenents.css">
+    
+</head>
+<body style="background-color: brown;">
+    <header>
+        <nav>
+            <a href="##">STATS</a> <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="#">QUEST</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="###">DUNGEON</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="####">CHAT</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="#####">GALLERY</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+        </nav>
+        <section>
+
+            <div class = "icon-nav-bar">
+              
+                <img src="images/Header_Elements/04 streak.png" alt="image of streak">
+                <p id ="streaks">183</p>  <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+            </div>
+
+            <div class = "icon-nav-bar">
+                <img src="images/Header_Elements/05 quests.png" alt="image of quest stone">
+                <p id ="quests">153</p> <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+
+            </div>
+
+            <div class = "icon-nav-bar">
+               
+                <img src="images/Header_Elements/06 fire stones.png" alt="image of fire stone">
+                <p id ="stones" >155</p> <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+            </div>
+
+            <div class = "icon-nav-bar-avatar">
+                <img src="images/Header_Elements/Avatar.png" alt="">
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+        <div class="canvas-container-global">
+          
+            <div class="canvas-container">
+                <h1>OTHER PLAYERS</h1>
+                <canvas class="canvas2"  height="200"  >
+                    
+                </canvas>
+                
+                <canvas class="canvas3" height="200" ></canvas>
+                
+            </div>
+       </div>
+        <section class="section-player-stats">
+           
+            <div class="bakground-wrapper">
+                <div class="background">
+                    <canvas class="canvas1"></canvas> 
+                    <canvas class="canvas0"></canvas> 
+                    <canvas class="canvas3"></canvas> 
+                    <canvas class="canvas2"></canvas>
+            
+                </div> 
+             </div>
+             <div class="wrapper_compenent">
+
+             </div>
+        </section>
+        <!--THIS SECTION IS FOR BUTTON CONTINUE QUEST , CSS FOR THIS PART CAN BE FOUND IN stats.css-->
+    </main>
+
+</body>
+
+    <script src="main1.js"></script>
+    <script type="module" src="Compenent.js"></script>
+    <script  type="module" src="./Script/lottie.js"></script>
+    <script  type="module" src="./Script/animations.js"></script>
+    <script type="module" src="./Script/main.js"></script>
+
+</html>
